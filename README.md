@@ -2,7 +2,7 @@
   <img alt="Logo" src=".github/logo_spring_boot.png" width="150px" />
 </h1>
 
-<h3 align="center">Curso de Spring Boot API REST: Construa uma API / Segurança da API, Cache e Monitoramento<h3>
+<h3 align="center">Curso de Spring Boot API REST: Construa uma API / Segurança da API, Cache e Monitoramento</h3>
 
 <p align="center">Desenvolvimento de uma API REST para o fórum da alura com Spring Boot</p>
 
@@ -11,7 +11,7 @@
 <p align="center">
   <a href="#como-executar-o-projeto">Como executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#configurações-de-ferramentas">Configurações de Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#anotações">Conteúdo do curso</a>
+  <a href="#conteúdo-do-curso">Conteúdo do curso</a>
 </p>
 
 <p align="center">Back-end</p>
