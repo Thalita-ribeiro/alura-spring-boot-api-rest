@@ -20,6 +20,18 @@
   <img alt="Back-end" src=".github/backend.png" width="90%">
 </p>
 
+<p align="center">Swagger</p>
+
+<p align="center">
+  <img alt="Swagger" src=".github/swagger.png" width="90%">
+</p>
+
+<p align="center">Spring Boot Admin</p>
+
+<p align="center">
+  <img alt="Spring Boot Admin" src=".github/spring_boot_admin.png" width="90%">
+</p>
+
 ## Como executar o projeto
 
 ### Requisitos
