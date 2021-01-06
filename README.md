@@ -31,27 +31,15 @@
 
 - [Insomnia](https://insomnia.rest)
 
-### Passos para a configuração
-
-**1. Clonar este repositório**
+### Clonar este repositório
 
 ```bash
 git clone https://github.com/eliasmcastro/alura-spring-boot-api-rest
 ```
 
-**2. Banco de bados**
+### Executar Api
 
-O banco de dados utilizado na aplicação foi o h2 (banco de dados em mémoria)
-
-Para acessar o banco de dados
-
-- URL: http://localhost:8080/h2-console
-- Driver Class: org.h2.Driver
-- JBC URL: jdbc:h2:mem:alura-forum
-- Usuario: sa
-- Senha: sa
-
-**3. Executar aplicação**
+**1. Executar aplicação**
 
 Se for executar pelo Eclipse
 
@@ -72,9 +60,46 @@ mvn spring-boot:run
 
 O aplicativo começará a ser executado em http://localhost:8080
 
+**2. Banco de bados**
+
+O banco de dados utilizado na aplicação foi o h2 (banco de dados em mémoria)
+
+Para acessar o banco de dados
+
+- URL: http://localhost:8080/h2-console
+- Driver Class: org.h2.Driver
+- JBC URL: jdbc:h2:mem:alura-forum
+- Usuario: sa
+- Senha: sa
+
 _Dica: utilizar o Insomnia para testar as rotas_
 
 - Abrir o Insomnia -> Application -> Preferences -> Data -> Import Data -> From File -> Selecionar o arquivo insomnia.json que está na pasta forum
+
+### Swagger
+
+Acessar http://localhost:8080/swagger-ui.html
+
+### Spring Boot Admin
+
+Se for executar pelo Eclipse
+
+- Abrir o Eclipse -> File -> Import -> Existing Marven Projects (clicar em Next) -> Selecionar a pasta spring-boot-admin do projeto (clicar em Finish)
+
+- Executar SpringBootAdminApplication.java (src/io.github.eliasmcastro.springbootadmin) para iniciar a aplicação
+
+O processo para executar pelo IntelliJ IDEA será semelhante
+
+Se for executar com o Maven
+
+- Entrar na pasta spring-boot-admin (pelo cmd/terminal)
+- Executar o comando abaixo para iniciar a aplicação
+
+```bash
+mvn spring-boot:run
+```
+
+O aplicativo começará a ser executado em http://localhost:8081
 
 ## Configurações de Ferramentas
 
