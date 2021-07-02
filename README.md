@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src=".github/logo_spring_boot.png" width="150px" />
+  <img alt="Logo" src=".github/logo_spring_boot.png" width="130px" />
 </h1>
 
 <h3 align="center">Curso de Spring Boot API REST: Construa uma API / Segurança da API, Cache e Monitoramento</h3>
@@ -46,7 +46,7 @@
 ### Clonar este repositório
 
 ```bash
-git clone https://github.com/eliasmcastro/alura-spring-boot-api-rest
+git clone https://github.com/eliasmcastro/alura-spring-boot-api-rest.git
 ```
 
 ### Executar Api
